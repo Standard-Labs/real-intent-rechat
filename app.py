@@ -33,7 +33,7 @@ OPTIONAL_SOURCE_COLUMNS = [
 SOURCE_TAG_MARKER_COLS = ['Sellers', 'Brokers And Agents', 'Residential', 'Pre-Movers', 'Mortgages']
 
 def main():
-    st.title('Your Specific Data to Rechat CSV Converter')
+    st.title('Real Intent to Rechat CSV Converter')
 
     st.info("""
     Upload your specific CSV data file (as provided in the latest sample with columns like 'first_name ', 'email_1 ', 'address ', 'city ', 'state ', 'zip_code ', 'insight', etc.).
